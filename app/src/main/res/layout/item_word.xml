@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:padding="16dp" android:layout_marginBottom="8dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+
+        <TextView android:id="@+id/tvIndonesian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Indonesian" android:textSize="16sp" />
+
+        <TextView android:id="@+id/tvEnglish"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="English" android:textSize="14sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView android:id="@+id/tvKorean"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Korean" android:textSize="14sp"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+
+        <Button
+            android:id="@+id/btnEdit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Edit" />
+
+        <Button
+            android:id="@+id/btnDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delete" android:textColor="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:gravity="center">
+
+    <!-- Pertanyaan yang ditampilkan -->
+    <TextView android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Translate to English: " android:textSize="18sp" android:layout_marginBottom="20dp" android:textAlignment="center" />
+
+    <!-- Input untuk jawaban -->
+    <EditText android:id="@+id/etAnswer"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Your answer" android:inputType="text" android:layout_marginBottom="20dp" />
+
+    <!-- Tombol untuk mengirimkan jawaban -->
+    <Button
+        android:id="@+id/btnSubmit" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Submit Answer" />
+</LinearLayout>

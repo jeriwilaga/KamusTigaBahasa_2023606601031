@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="16dp">
+
+    <!-- Field untuk kata Bahasa Indonesia -->
+    <EditText android:id="@+id/etIndonesian" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Indonesian" android:inputType="text" />
+
+    <!-- Field untuk kata Bahasa Inggris -->
+    <EditText android:id="@+id/etEnglish"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="English" android:inputType="text" />
+
+    <!-- Field untuk kata Bahasa Korea -->
+    <EditText android:id="@+id/etKorean"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Korean" android:inputType="text" />
+
+    <!-- Tombol untuk menyimpan data -->
+    <Button
+        android:id="@+id/btnSave" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Save" />
+</LinearLayout>
